@@ -17,6 +17,7 @@ from lib.io_modules.results_visualization import generate_bigM_comparison_table
 from lib.io_modules.results_visualization import generate_solutions_excel
 from lib.io_modules.results_visualization import generate_transportation_models_comparison_table
 from lib.io_modules.results_visualization import generate_large_scale_solutions_table
+from lib.io_modules.data_files_info import append_data_file_info
 
 
 # INSTANCE GENERATION
@@ -29,6 +30,9 @@ from lib.io_modules.results_visualization import generate_large_scale_solutions_
 
 #print('--Generation of large scale instances')
 #generate_large_scale_instances()
+
+print('--Append data file information')
+append_data_file_info()
 
 #print('--Minimum utility cost solving')
 #solve_min_utility_cost()
@@ -87,8 +91,8 @@ from lib.io_modules.results_visualization import generate_large_scale_solutions_
 #print('--Generation of transportation models comparison table')
 #generate_transportation_models_comparison_table()
 
-print('--Generation of an excel file with all solutions')
-generate_solutions_excel()
+#print('--Generation of an excel file with all solutions')
+#generate_solutions_excel()
 
 #print('--Generation of large-scale solutions table')
 #generate_large_scale_solutions_table()
