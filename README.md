@@ -21,7 +21,8 @@ All input and output data files are located in directory `data`, all the require
 This repository contains a collection of 48 general heat exchanger network design problem instances. These instances are classified into three test sets: 
 1. Furman (2000) test set,
 2. Chen et al. (2015a, 2015b) test set,
-3. Grossmann (2017) test set.
+3. Grossmann (2017) test set,
+4. Randomly generated large-scale test set.
 
 The Furman (2000) instances are manually digitized from the engineering literature, the Chen et al. (2015a, 2015b) are existing instances in the literature, and the Grossmann (2017) instances are generated randomly with fixed seeds. Obtaining the Chen et al. (2015a, 2015b) and Grossmann (2017) instances requires parsing existing `.gms` files and random selections in the latter case. All minimum utility cost instances as well as the corresponding `.gms` files are stored in the directory `data/original_instances`.
 
