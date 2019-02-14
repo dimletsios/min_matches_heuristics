@@ -4,7 +4,7 @@ Date: 11 September 2017
 Authors: Dimitrios Letsios, Georgia Kouyialis, Ruth Misener  
 Contact: `d.letsios@imperial.ac.uk`; `g.kouyialis14@imperial.ac.uk`; `r.misener@imperial.ac.uk`
 
-Citing (i) data, (ii) algorithms, and / or source code from this repository:
+Citing (i) data, (ii) algorithms, and / or (iii) source code from this repository:
 - Dimitrios Letsios, Georgia Kouyialis, Ruth Misener. Heuristics with Performance Guarantees for the Minimum Number of Matches Problem in Heat Recovery Network Design. Computers and Chemical Engineering 113:57-85, 2018. 
 
 This repository contains 1) a collection of benchmark instances of the general heat exchanger network synthesis problem, 2) a source code implementing and evaluating the performance of exact and heuristic methods for the minimum number of matches problem (using Python 2.7.6 and Pyomo 4.4.1), and 3) the obtained results after running the code on an Intel Core i7-4790 CPU 3.60 GHz with 15.6 GB RAM and 64-bit Ubuntu 14.04. Letsios, Kouyialis and Misener (2017) present a technical description of the implemented methods.
