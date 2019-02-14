@@ -1,4 +1,7 @@
-Cost=89500.0
+Test case originally investigated by Chen, Grossmann, Miller (2015). 
+Retrieved from www.minlp.org. 
+ 
+ Cost=89500.0
 n=7
 m=6
 k=12
