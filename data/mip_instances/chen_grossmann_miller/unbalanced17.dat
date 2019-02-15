@@ -1,6 +1,5 @@
-Test case originally investigated by Chen, Grossmann, Miller (2015). 
+Test case originally investigated by "Chen, Grossmann, Miller. Computers and Chemical Engineering 82, p. 68-83, 2015". 
 Retrieved from www.minlp.org. 
- 
  Cost=91680.0
 n=19
 m=18
