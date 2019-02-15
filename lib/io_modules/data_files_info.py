@@ -5,15 +5,15 @@ def append_data_file_info():
 	test_sets = ['furman_sahinidis', 'chen_grossmann_miller', 'grossmann_random', 'large_scale']
 	
 	for test_set in test_sets:
-		#dat_files_path='data/original_instances/' + test_set + '/dat_files/'
-		dat_files_path='data/mip_instances/' + test_set + '/'
+		dat_files_path='data/original_instances/' + test_set + '/dat_files/'
+		#dat_files_path='data/mip_instances/' + test_set + '/'
 		test_ids=listdir(dat_files_path) 
 	
 		for test_id in test_ids:
 			if '~' not in test_id:
 				
-				#file_name = 'data/original_instances/' + test_set + '/dat_files/' + test_id
-				file_name = 'data/mip_instances/' + test_set + '/' + test_id
+				file_name = 'data/original_instances/' + test_set + '/dat_files/' + test_id
+				#file_name = 'data/mip_instances/' + test_set + '/' + test_id
 				with open(file_name, 'r') as rf:
 					lines = rf.readlines() 
 				
